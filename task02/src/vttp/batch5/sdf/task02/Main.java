@@ -47,7 +47,7 @@ public class Main {
 		// ^^^^^^ code above take in the TTT file, puts it into gameboard and stores
 
 		// store utility of each position using map
-		Map<int[], Integer> utility = new HashMap<>();
+		Map<int[], Integer> utility = new LinkedHashMap<>();
 
 		// loop through each position to get utility
 		for (int[] p : legalPositions) {

@@ -94,12 +94,6 @@ public class Main {
 
 			positionPlace += 1;
 		}
-
-
-
-
-
-
 	}
 
 	public static int boolToInt(boolean b){
@@ -109,4 +103,5 @@ public class Main {
 			return 0;
 		}
 	}
+	
 }
